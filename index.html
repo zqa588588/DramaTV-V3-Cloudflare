@@ -1,99 +1,204 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>DramaTV - 1000+ Free Short Dramas</title>
+<title>DramaTV - Free Short Dramas</title>
 
 <style>
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
 body{
-margin:0;
-font-family:Arial, sans-serif;
-background:#087cff;
-color:white;
-text-align:center;
+    background:#06152f;
+    color:white;
 }
 
-.box{
-padding:35px 20px;
-}
-
-
-h1{
-font-size:45px;
-margin-bottom:10px;
+.container{
+    width:100%;
+    max-width:480px;
+    margin:auto;
 }
 
 
-h2{
-font-size:30px;
+/* Header */
+
+.header{
+    padding:20px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo{
+    background:#1687ff;
+    width:42px;
+    height:42px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:22px;
 }
 
 
-p{
-font-size:18px;
+.brand{
+    font-size:22px;
+    font-weight:bold;
 }
 
 
-.phone{
+/* Hero */
 
-width:260px;
-height:480px;
-background:#111;
-border-radius:35px;
-margin:30px auto;
-padding:15px;
+.hero{
+    padding:20px;
+    text-align:center;
+}
+
+
+.hero h1{
+    font-size:38px;
+    line-height:1.1;
+    margin-bottom:15px;
+}
+
+
+.hero span{
+    color:#ffd400;
+}
+
+
+.hero p{
+    color:#ddd;
+    font-size:17px;
+    margin-bottom:25px;
+}
+
+
+/* Download */
+
+.download{
+
+    display:block;
+    background:#ffd400;
+    color:#111;
+    text-decoration:none;
+    font-size:22px;
+    font-weight:bold;
+
+    padding:18px;
+    border-radius:50px;
+
+    margin:20px auto;
+
+    width:90%;
+
+    box-shadow:0 5px 20px rgba(255,212,0,.5);
 
 }
 
 
-.screen{
+.download:hover{
+    transform:scale(1.03);
+}
 
-background:#222;
-height:100%;
-border-radius:25px;
-padding:20px;
+
+/* Trust */
+
+.trust{
+
+    display:flex;
+    justify-content:space-around;
+
+    padding:20px 10px;
+
+    font-size:13px;
 
 }
 
 
-.video{
+.trust div{
+    text-align:center;
+}
 
-background:#ff4757;
-border-radius:15px;
-padding:15px;
-margin:10px;
+
+.icon{
+    font-size:25px;
+}
+
+
+/* Poster */
+
+.section{
+
+    padding:20px;
 
 }
 
 
-button{
+.section h2{
 
-background:#ffc400;
-color:#000;
-
-border:none;
-
-font-size:22px;
-
-font-weight:bold;
-
-padding:18px 40px;
-
-border-radius:50px;
+    margin-bottom:15px;
 
 }
 
 
-.small{
+.cards{
 
-margin-top:25px;
+    display:grid;
 
-font-size:14px;
+    grid-template-columns:repeat(2,1fr);
+
+    gap:12px;
 
 }
+
+
+.card{
+
+    height:170px;
+
+    background:
+    linear-gradient(
+    135deg,
+    #333,
+    #111
+    );
+
+    border-radius:12px;
+
+    display:flex;
+
+    align-items:end;
+
+    padding:10px;
+
+    font-weight:bold;
+
+}
+
+
+/* Bottom */
+
+.footer{
+
+    text-align:center;
+
+    padding:30px;
+
+    color:#aaa;
+
+    font-size:13px;
+
+}
+
 
 </style>
 
@@ -103,65 +208,182 @@ font-size:14px;
 <body>
 
 
-<div class="box">
+<div class="container">
+
+
+<div class="header">
+
+<div class="logo">
+▶
+</div>
+
+<div class="brand">
+DramaTV
+</div>
+
+</div>
+
+
+
+<div class="hero">
 
 
 <h1>
-DramaTV
+Unlimited
+<br>
+<span>Free</span>
+ Short Dramas
 </h1>
 
 
-<h2>
-1000+ FREE SHORT DRAMAS & MOVIES
-</h2>
-
-
 <p>
-Watch trending short dramas anytime anywhere
+Watch trending stories, movies and short dramas anytime.
+<br>
+Fast & easy Android download.
 </p>
 
 
 
-<div class="phone">
+<a class="download" href="YOUR_BEMOB_LINK_HERE">
 
-<div class="screen">
+⬇ Download Free APK
 
-
-<h3>
-📺 DramaTV APP
-</h3>
-
-
-<div class="video">
-🔥 CEO Secret Wife
-</div>
-
-
-<div class="video">
-❤️ Revenge Love
-</div>
-
-
-<div class="video">
-🎬 Billionaire Story
-</div>
+</a>
 
 
 </div>
 
+
+
+
+<div class="trust">
+
+
+<div>
+<div class="icon">
+🔒
+</div>
+Safe
+</div>
+
+
+<div>
+<div class="icon">
+⚡
+</div>
+Fast
+</div>
+
+
+<div>
+<div class="icon">
+📱
+</div>
+Android
+</div>
+
+
+<div>
+<div class="icon">
+✓
+</div>
+Free
+</div>
+
+
 </div>
 
 
 
-<button>
-⬇ DOWNLOAD APK FREE
-</button>
+
+
+<div class="section">
+
+
+<h2>
+Popular Short Dramas
+</h2>
 
 
 
-<div class="small">
+<div class="cards">
 
-Android App Only
+
+<div class="card">
+The CEO's Secret Wife
+</div>
+
+
+<div class="card">
+Revenge Story
+</div>
+
+
+<div class="card">
+Love After Divorce
+</div>
+
+
+<div class="card">
+Hidden Romance
+</div>
+
+
+<div class="card">
+Billionaire Drama
+</div>
+
+
+<div class="card">
+My Second Life
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="section">
+
+
+<h2>
+Why Choose DramaTV?
+</h2>
+
+
+<p>
+
+✓ 1000+ Free Episodes
+<br><br>
+✓ No Registration Required
+<br><br>
+✓ Works on Android Devices
+<br><br>
+✓ New Stories Updated Daily
+
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="footer">
+
+© 2026 DramaTV
+
+<br><br>
+
+Privacy Policy |
+Terms of Service |
+Contact
 
 </div>
 
@@ -170,5 +392,4 @@ Android App Only
 
 
 </body>
-
 </html>
